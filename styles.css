@@ -1,16 +1,5 @@
-.intro_div { 
-	float: left;
-	height: fit-content;
-	padding-left: 50px;
-}
-
 body {
 	min-width: 600px;
-}
-.bar { 
-	background-color:rgba(255, 255, 255, 1);
-	width:100%;
-	position: relative;;
 }
 
 .main {
@@ -24,101 +13,18 @@ body {
 	padding:50px;
 }
 
-.logo{
-	float: right;
-}
-
-.intro { 
-	color:rgba(66, 75, 84, 1);
-	position:relative;
-	top:30px;
-	width: 550px;
-	height: 130px;
-	font-family:Lato;
-	text-align:left;
-	font-size:36px;
-	letter-spacing:0;
-}
-
-.page_links { 
-	color:rgba(66, 75, 84, 1);
-	padding: 10px;
-	font-family:Lato;
-	text-align: center;
-	font-size:24px;
-	letter-spacing:0;
-	position: relative;
-	float: left;
-}
-
 .image { 
-	width:415px;
-	height:529px;
-	position:relative;
-	float: right;
-}
-
-}
-.picture { 
-	width:413px;
-	height:529px;
-	position:absolute;
-	left:0px;
-	top:0px;
-	border-radius:Symbol(figma.mixed)px;
-	background-image:url(images/maybe_website_2_1.png);
-	background-repeat:no-repeat;
-	background-size:cover;
-	border-bottom-left-radius: 500px;
-	border-bottom-right-radius: 500px;
-}
-
-.title { 
-	color:rgba(66.00000366568565, 75.00000312924385, 84.00000259280205, 1);
-	position:relative;
-	font-family:Playfair Display SC;
-	text-align:left;
-	font-size:80px;
-	font-weight: 900;
-	letter-spacing:0;
-	width: 550px;
-}
-
-.portfolio-intro {
-	position: relative;
-	height: fit-content;
-	padding-left: 50px;
-}
-
-.portfolio-title {
-	color:rgba(66.00000366568565, 75.00000312924385, 84.00000259280205, 1);
-	position:relative;
-	font-family:Playfair Display SC;
-	text-align:left;
-	font-size:80px;
-	font-weight: 900;
-	letter-spacing:0;
-	padding-top: 25px;
-	padding-bottom: 5px;
-	width: 550px;
+	width: 100%;
+  	max-width: 400px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 .header {
 	position: relative;
 	height: 90px;
-}
-
-.logo_text { 
-	color:rgba(0, 0, 0, 1);
-	width:111px;
-	height:40px;
-	float: right;
-	font-family:Playfair Display SC;
-	text-align:left;
-	font-size:30px;
-	font-weight: bold;
-	letter-spacing:0;
-	z-index: 9;
 }
 
 .filler {
